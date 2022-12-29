@@ -1,7 +1,75 @@
 <style>
+
+/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
+
+p, h1, h2 {
+  font-family: Helvetica;
+}
+
+section {
+  position: relative;
+  margin: 20px;
+}
+
+section > h2 {
+  position: absolute;
+  margin-top: 0px;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  text-align: center;
+}
+
+section > p {
+  padding: 50px 10px 10px 10px;
+}
+
+div > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 175%;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+section, section > h2 {
+  border: 1px solid black;
+}
+
+.row {
+
+}
+
+#section-1 {
+  background-color: #D3D3D3;
+}
+
+#section-2 {
+  background-color: #D3D3D3;
+}
+
+#section-3 {
+  background-color: #D3D3D3;
+}
+
+#section-1 > h2 {
+  background-color: #FFB6C1;
+}
+
+#section-2 > h2 {
+  background-color: #C73A52;
+}
+
+#section-3 > h2 {
+  background-color: #E6DDB0;
+}
+
+/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
@@ -171,70 +239,6 @@
   .col-lg-12 {
     width: 100%;
   }
-}
-
-p, h1, h2 {
-  font-family: Helvetica;
-}
-
-section {
-  position: relative;
-  margin: 20px;
-}
-
-section > h2 {
-  position: absolute;
-  margin-top: 0px;
-  top: 0px;
-  right: 0px;
-  width: 200px;
-  text-align: center;
-}
-
-section > p {
-  padding: 50px 10px 10px 10px;
-}
-
-div > h1 {
-  width: 100%;
-  text-align: center;
-  font-size: 175%;
-}
-
-h2 {
-  font-size: 125%;
-}
-
-section, section > h2 {
-  border: 1px solid black;
-}
-
-.row {
-
-}
-
-#section-1 {
-  background-color: #D3D3D3;
-}
-
-#section-2 {
-  background-color: #D3D3D3;
-}
-
-#section-3 {
-  background-color: #D3D3D3;
-}
-
-#section-1 > h2 {
-  background-color: #FFB6C1;
-}
-
-#section-2 > h2 {
-  background-color: #C73A52;
-}
-
-#section-3 > h2 {
-  background-color: #E6DDB0;
 }
 
 </style>
