@@ -174,7 +174,7 @@
 }
 
 p, h1, h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Helvetica;
 }
 
 section {
@@ -214,15 +214,15 @@ section, section > h2 {
 }
 
 #section-1 {
-  background-color: #828282;
+  background-color: #808080;
 }
 
 #section-2 {
-  background-color: #828282;
+  background-color: #808080;
 }
 
 #section-3 {
-  background-color: #828282;
+  background-color: #808080;
 }
 
 #section-1 > h2 {
