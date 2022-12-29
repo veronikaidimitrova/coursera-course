@@ -1,9 +1,5 @@
 <style>
 
-.row {
-  width: 100%;
-}
-
 /********** Base styles **********/
 * {
   box-sizing: border-box;
@@ -21,6 +17,11 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
 }
 
 /********** Large devices only **********/
