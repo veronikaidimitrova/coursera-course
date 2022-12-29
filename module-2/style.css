@@ -214,27 +214,27 @@ section, section > h2 {
 }
 
 #section-1 {
-  background-color: #808080;
+  background-color: #D3D3D3;
 }
 
 #section-2 {
-  background-color: #808080;
+  background-color: #D3D3D3;
 }
 
 #section-3 {
-  background-color: #808080;
+  background-color: #D3D3D3;
 }
 
 #section-1 > h2 {
-  background-color: #FF8880;
+  background-color: #FFB6C1;
 }
 
 #section-2 > h2 {
-  background-color: #FF80AA;
+  background-color: #800020;
 }
 
 #section-3 > h2 {
-  background-color: #EC80FF;
+  background-color: #E6DDB0;
 }
 
 </style>
