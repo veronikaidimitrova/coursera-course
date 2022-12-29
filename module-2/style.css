@@ -1,5 +1,9 @@
 <style>
 
+.row {
+  width: 100%;
+}
+
 /********** Base styles **********/
 * {
   box-sizing: border-box;
